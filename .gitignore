@@ -1,0 +1,41 @@
+# ── Dependencies ──────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ── Build output ──────────────────────────────
+frontend/dist/
+frontend/dist-ssr/
+frontend/build/
+
+# ── Environment files (NEVER commit secrets) ──
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+
+# ── Logs ──────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Editor ────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.sw?
+
+# ── OS ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Misc ──────────────────────────────────────
+*.local
+.cache/
